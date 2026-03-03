@@ -1,7 +1,7 @@
 # CBI - SEO Team Workspace
 
 ## Tổng quan dự án
-Đây là workspace quản lý SEO cho team CBI, bao gồm keyword research, content management, technical SEO, link building và analytics reporting.
+Đây là workspace quản lý SEO và ecommerce cho team CBI, bao gồm keyword research, content management, technical SEO, link building, analytics reporting và ecommerce product research.
 
 ## Cấu trúc team (Agents)
 
@@ -11,6 +11,7 @@
 | `technical-seo` | `.claude/agents/technical-seo.md` | SEO kỹ thuật | Audit, page speed, crawling, schema |
 | `content-writer` | `.claude/agents/content-writer.md` | Viết & edit content | Viết bài, tạo brief, tối ưu nội dung |
 | `seo-analyst` | `.claude/agents/seo-analyst.md` | Phân tích data | Keyword research, competitor analysis, báo cáo |
+| `ecommerce-analyst` | `.claude/agents/ecommerce-analyst.md` | Nghiên cứu sản phẩm | Product research, niche analysis, profit calculation, supplier sourcing |
 
 ## Shared Skills (dùng chung)
 
@@ -23,6 +24,7 @@
 | Competitor Analysis | `/competitor-analysis [domain]` | Phân tích đối thủ |
 | Reporting | `/reporting [weekly/monthly] [date]` | Tạo báo cáo SEO |
 | Content Review | `/content-review [file]` | Review chất lượng content |
+| Product Research | `/product-research [sản phẩm/niche]` | Nghiên cứu sản phẩm ecommerce, phân tích niche, tính lợi nhuận, gợi ý supplier |
 
 ## Quy ước chung
 
@@ -44,8 +46,10 @@
 6. Publish -> `02-Content/published/`
 7. Technical SEO kiểm tra kỹ thuật
 8. SEO Analyst theo dõi & báo cáo -> `06-Analytics-Reporting/`
+9. Ecommerce Analyst nghiên cứu sản phẩm & niche -> `09-Ecommerce/`
 
 ### Tham khảo SOP
 - SEO: @../SOP/SEO/README.md
 - Content: @../SOP/Content/README.md
 - Technical: @../SOP/Technical/README.md
+- Ecommerce: @../SOP/Ecommerce/README.md

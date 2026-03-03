@@ -7,7 +7,8 @@ CBI/
 ├── SOP/                          # Quy trình chuẩn (Standard Operating Procedures)
 │   ├── SEO/                      # SOP cho quy trình SEO
 │   ├── Content/                  # SOP cho quy trình viết content
-│   └── Technical/                # SOP cho kỹ thuật
+│   ├── Technical/                # SOP cho kỹ thuật
+│   └── Ecommerce/                # SOP cho ecommerce & dropship
 │
 ├── 01-Keyword-Research/          # Nghiên cứu từ khóa
 │   ├── seed-keywords/            # Danh sách từ khóa gốc
@@ -55,11 +56,18 @@ CBI/
 │   ├── local-citations/          # NAP citations
 │   └── reviews-management/       # Quản lý đánh giá
 │
-└── 08-Tools-Config/              # Cấu hình công cụ
-    ├── google-search-console/    # GSC settings & reports
-    ├── google-analytics/         # GA4 config
-    ├── ahrefs-semrush/           # Config & exported data
-    └── screaming-frog/           # Crawl config profiles
+├── 08-Tools-Config/              # Cấu hình công cụ
+│   ├── google-search-console/    # GSC settings & reports
+│   ├── google-analytics/         # GA4 config
+│   ├── ahrefs-semrush/           # Config & exported data
+│   └── screaming-frog/           # Crawl config profiles
+│
+└── 09-Ecommerce/                 # Nghiên cứu sản phẩm & dropship
+    ├── product-research/         # Báo cáo phân tích sản phẩm
+    ├── niche-analysis/           # Đánh giá niche
+    ├── supplier-list/            # Cơ sở dữ liệu nhà cung cấp
+    ├── profit-calculator/        # Tính lợi nhuận
+    └── trending-products/        # Sản phẩm đang trending
 ```
 
 ## Vai trò trong team
@@ -72,6 +80,7 @@ CBI/
 | Technical SEO | `04-Technical-SEO/`, `08-Tools-Config/` | Xử lý kỹ thuật, audit, tốc độ |
 | Link Builder | `05-Link-Building/` | Outreach, guest post, backlink |
 | SEO Analyst | `06-Analytics-Reporting/`, `01-Keyword-Research/` | Phân tích data, báo cáo |
+| Ecommerce Analyst | `09-Ecommerce/` | Nghiên cứu sản phẩm, niche, supplier, lợi nhuận |
 
 ## Quy trình làm việc
 
@@ -83,3 +92,4 @@ CBI/
 6. **Link Building** -> Outreach để xây dựng backlink
 7. **Monitoring** -> Theo dõi ranking, traffic, conversion
 8. **Reporting** -> Báo cáo tuần/tháng và điều chỉnh chiến lược
+9. **Ecommerce Research** -> Nghiên cứu sản phẩm, đánh giá niche, tính lợi nhuận, tìm supplier
